@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+body {
+  background-color: #0d0036;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #036ef8;
+  color: white;
+  padding: 10px 0px;
+  margin-bottom: 40px;
+}
+header p {
+  font-weight: bold;
+}
+.btn-checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 500px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #036ef8;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-checkout a {
+  color: white;
+  padding-right: 5px;
+}
+.btn-checkout p {
+  margin-top: 10px;
+  color: white;
+}
+.comentarios {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+.space-comentarios {
+  width: 95%;
+  margin: auto;
+}
+.comentarios h1 {
+  color: #686868;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2em;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 20px 0px;
+}
+.card {
+  margin-top: 20px;
+}
+.top-card {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+.top-card img {
+  width: 50px;
+  border-radius: 50%;
+}
+.comentario p {
+  font-size: 15px;
+  color: #686868;
+}
+.bottom-card p {
+  color: #686868;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-top: 10px;
+}
+.footer-comentarios {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+  border-top: 1px solid #cfcfcf;
+}
+.d-none {
+  display: none !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.text-vsl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+.txt-vsl-p1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+#dataAcesso {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.custom-text {
+  text-decoration: underline;
+  font-weight: bold;
+}
